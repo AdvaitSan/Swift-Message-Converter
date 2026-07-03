@@ -1,0 +1,90 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mcom.converter:swift-converter[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding swift-converter 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:3.6.3:java[m [1m(default-cli)[m @ [36mswift-converter[0;1m ---[m
+--- MT564 Sequences ---
+getSequenceA -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceA
+getSequenceA -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceA
+getSequenceGENL -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceA
+getSequenceGENL -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceA
+getSequenceA1List -> java.util.List
+getSequenceA1List -> java.util.List
+getSequenceLINKList -> java.util.List
+getSequenceLINKList -> java.util.List
+getSequenceA2 -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceA2
+getSequenceA2 -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceA2
+getSequenceREVR -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceA2
+getSequenceREVR -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceA2
+getSequenceB -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceB
+getSequenceB -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceB
+getSequenceUSECU -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceB
+getSequenceUSECU -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceB
+getSequenceB1 -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceB1
+getSequenceB1 -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceB1
+getSequenceFIA -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceB1
+getSequenceFIA -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceB1
+getSequenceB2List -> java.util.List
+getSequenceB2List -> java.util.List
+getSequenceACCTINFOList -> java.util.List
+getSequenceACCTINFOList -> java.util.List
+getSequenceC -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceC
+getSequenceC -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceC
+getSequenceINTSEC -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceC
+getSequenceINTSEC -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceC
+getSequenceD -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceD
+getSequenceD -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceD
+getSequenceCADETL -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceD
+getSequenceCADETL -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceD
+getSequenceEList -> java.util.List
+getSequenceEList -> java.util.List
+getSequenceCAOPTNList -> java.util.List
+getSequenceCAOPTNList -> java.util.List
+getSequenceE1List -> java.util.List
+getSequenceE1List -> java.util.List
+getSequenceSECMOVEList -> java.util.List
+getSequenceSECMOVEList -> java.util.List
+getSequenceE1aList -> java.util.List
+getSequenceE1aList -> java.util.List
+getSequenceE2List -> java.util.List
+getSequenceE2List -> java.util.List
+getSequenceCASHMOVEList -> java.util.List
+getSequenceCASHMOVEList -> java.util.List
+getSequenceF -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceF
+getSequenceF -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceF
+getSequenceADDINFO -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceF
+getSequenceADDINFO -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceF
+--- Sequence A fields ---
+--- Sequence B fields ---
+--- Sequence D fields ---
+--- CorporateActionGeneralInformation177 ---
+setCorpActnEvtId -> java.lang.String
+setOffclCorpActnEvtId -> java.lang.String
+setClssActnNb -> java.lang.String
+setEvtTp -> com.prowidesoftware.swift.model.mx.dic.CorporateActionEventType108Choice
+setMndtryVlntryEvtTp -> com.prowidesoftware.swift.model.mx.dic.CorporateActionMandatoryVoluntary3Choice
+setFinInstrmId -> com.prowidesoftware.swift.model.mx.dic.SecurityIdentification19
+--- CorporateActionNotificationV12 ---
+setPgntn -> com.prowidesoftware.swift.model.mx.dic.Pagination1
+setNtfctnGnlInf -> com.prowidesoftware.swift.model.mx.dic.CorporateActionNotification5
+setPrvsNtfctnId -> com.prowidesoftware.swift.model.mx.dic.DocumentIdentification31
+setInstrId -> com.prowidesoftware.swift.model.mx.dic.DocumentIdentification9
+setCorpActnGnlInf -> com.prowidesoftware.swift.model.mx.dic.CorporateActionGeneralInformation165
+setAcctDtls -> com.prowidesoftware.swift.model.mx.dic.AccountIdentification47Choice
+setIntrmdtScty -> com.prowidesoftware.swift.model.mx.dic.FinancialInstrumentAttributes110
+setCorpActnDtls -> com.prowidesoftware.swift.model.mx.dic.CorporateAction60
+setAddtlInf -> com.prowidesoftware.swift.model.mx.dic.CorporateActionNarrative51
+setRegar -> com.prowidesoftware.swift.model.mx.dic.PartyIdentification120Choice
+setPhysSctiesAgt -> com.prowidesoftware.swift.model.mx.dic.PartyIdentification120Choice
+setDrpAgt -> com.prowidesoftware.swift.model.mx.dic.PartyIdentification120Choice
+setInfAgt -> com.prowidesoftware.swift.model.mx.dic.PartyIdentification120Choice
+setIssr -> com.prowidesoftware.swift.model.mx.dic.PartyIdentification129Choice
+setTrfAgt -> com.prowidesoftware.swift.model.mx.dic.PartyIdentification129Choice
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.046 s
+[[1;34mINFO[m] Finished at: 2026-06-29T23:55:56+05:30
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

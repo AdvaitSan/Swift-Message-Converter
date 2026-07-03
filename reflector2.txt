@@ -1,0 +1,66 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mcom.converter:swift-converter[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding swift-converter 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mswift-converter[0;1m ---[m
+[[1;34mINFO[m] Deleting /data/Swift Converter/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mswift-converter[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /data/Swift Converter/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mswift-converter[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 4 source files to /data/Swift Converter/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:3.6.3:java[m [1m(default-cli)[m @ [36mswift-converter[0;1m ---[m
+--- CorporateActionGeneralInformation165 ---
+setCorpActnEvtId -> java.lang.String
+setOffclCorpActnEvtId -> java.lang.String
+setClssActnNb -> java.lang.String
+setEvtPrcgTp -> com.prowidesoftware.swift.model.mx.dic.CorporateActionEventProcessingType2Choice
+setEvtTp -> com.prowidesoftware.swift.model.mx.dic.CorporateActionEventType84Choice
+setMndtryVlntryEvtTp -> com.prowidesoftware.swift.model.mx.dic.CorporateActionMandatoryVoluntary3Choice
+setUndrlygScty -> com.prowidesoftware.swift.model.mx.dic.FinancialInstrumentAttributes108
+--- CorporateActionNotification5 ---
+setNtfctnTp -> com.prowidesoftware.swift.model.mx.dic.CorporateActionNotificationType1Code
+setPrcgSts -> com.prowidesoftware.swift.model.mx.dic.CorporateActionProcessingStatus5Choice
+setElgblBalInd -> java.lang.Boolean
+--- CorporateAction60 ---
+setDtDtls -> com.prowidesoftware.swift.model.mx.dic.CorporateActionDate61
+setPrdDtls -> com.prowidesoftware.swift.model.mx.dic.CorporateActionPeriod15
+setRateAndAmtDtls -> com.prowidesoftware.swift.model.mx.dic.CorporateActionRate105
+setPricDtls -> com.prowidesoftware.swift.model.mx.dic.CorporateActionPrice72
+setSctiesQty -> com.prowidesoftware.swift.model.mx.dic.CorporateActionQuantity11
+setIntrstAcrdNbOfDays -> java.math.BigDecimal
+setCertfctnBrkdwnInd -> java.lang.Boolean
+setChrgsApldInd -> java.lang.Boolean
+setRstrctnInd -> java.lang.Boolean
+setAcrdIntrstInd -> java.lang.Boolean
+setLttrOfGrntedDlvryInd -> java.lang.Boolean
+setShrhldrRghtsDrctvInd -> java.lang.Boolean
+setDvddTp -> com.prowidesoftware.swift.model.mx.dic.DividendTypeFormat9Choice
+setEvtSeqTp -> com.prowidesoftware.swift.model.mx.dic.EventSequenceTypeFormat1Choice
+setOcrncTp -> com.prowidesoftware.swift.model.mx.dic.DistributionTypeFormat7Choice
+setRnncblEntitlmntStsTp -> com.prowidesoftware.swift.model.mx.dic.RenounceableEntitlementStatusTypeFormat3Choice
+setIntrmdtSctiesDstrbtnTp -> com.prowidesoftware.swift.model.mx.dic.IntermediateSecuritiesDistributionTypeFormat15Choice
+setCptlGnInOutInd -> com.prowidesoftware.swift.model.mx.dic.CapitalGainFormat3Choice
+setTaxblIncmPerShrClctd -> com.prowidesoftware.swift.model.mx.dic.TaxableIncomePerShareCalculatedFormat3Choice
+setElctnTp -> com.prowidesoftware.swift.model.mx.dic.ElectionTypeFormat3Choice
+setLtryTp -> com.prowidesoftware.swift.model.mx.dic.LotteryTypeFormat4Choice
+setCertfctnTp -> com.prowidesoftware.swift.model.mx.dic.CertificationTypeFormat3Choice
+setCnsntTp -> com.prowidesoftware.swift.model.mx.dic.ConsentTypeFormat4Choice
+setInfTp -> com.prowidesoftware.swift.model.mx.dic.InformationTypeFormat4Choice
+setNewPlcOfIncorprtn -> java.lang.String
+setAddtlInf -> com.prowidesoftware.swift.model.mx.dic.CorporateActionNarrative50
+--- MT564 Sequences ---
+getSequenceD -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceD
+getSequenceD -> com.prowidesoftware.swift.model.mt.mt5xx.MT564$SequenceD
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  3.846 s
+[[1;34mINFO[m] Finished at: 2026-06-30T00:00:00+05:30
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

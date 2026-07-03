@@ -1,0 +1,7 @@
+com/converter/CorpActnNtfctnConverterTest.class
+com/converter/CorpActnNtfctnConverterTest$RegressionTest.class
+com/converter/CorpActnNtfctnConverterTest$HappyPathTests.class
+com/converter/CorpActnNtfctnConverterTest$XsdValidationTests.class
+com/converter/CorpActnNtfctnConverterTest$SMPGComplianceRuleTests.class
+com/converter/CorpActnNtfctnConverterTest$FieldMappingAccuracyTests.class
+com/converter/CorpActnNtfctnConverterTest$EdgeCaseTests.class

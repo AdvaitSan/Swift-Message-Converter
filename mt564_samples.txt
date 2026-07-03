@@ -1,0 +1,425 @@
+================================================================================
+MT564 SAMPLE TEST MESSAGES FOR seev.031.001.12 CONVERTER
+Securities Market Practice Group (SMPG) Compliant Test Data
+================================================================================
+
+========================================
+TEST 1: HAPPY PATH - Dividend (DVCA) NEWM
+========================================
+{1:F01BANKBEBBAXXX0000000000}
+{2:I564BANKDEFFXXXXN}
+{4:
+:16R:GENL
+:20C::CORP//CA2024001
+:23G:NEWM
+:22F::CAEV//DVCA
+:22F::CAMV//MAND
+:16S:GENL
+:16R:USECU
+:35B:ISIN US0378331005
+/XS/APPLE INC
+:16S:USECU
+:16R:CADETL
+:98A::RDDT//20241215
+:98A::PAVT//20241220
+:92A::GRSS//5,00
+:92A::NETT//4,25
+:16S:CADETL
+:16R:CAOPTN
+:13A::CAON//001
+:22F::OPTF//CASH
+:16R:CASHMVT
+:19B::GRSS//USD5000000,00
+:19B::NETT//USD4250000,00
+:98A::PAYD//20241220
+:16S:CASHMVT
+:16S:CAOPTN
+-}
+
+========================================
+TEST 2: HAPPY PATH - Bonus Issue (BONU) NEWM
+========================================
+{1:F01BANKBEBBAXXX0000000000}
+{2:I564BANKDEFFXXXXN}
+{4:
+:16R:GENL
+:20C::CORP//CA2024002
+:23G:NEWM
+:22F::CAEV//BONU
+:22F::CAMV//MAND
+:16S:GENL
+:16R:USECU
+:35B:ISIN GB0002634946
+/XS/BARCLAYS PLC
+:16S:USECU
+:16R:CADETL
+:98A::RDDT//20241210
+:98A::EXDT//20241205
+:16S:CADETL
+:16R:CAOPTN
+:13A::CAON//001
+:22F::OPTF//SECU
+:16R:SECMVT
+:36B::ENTL//FAMT/1000,
+:35B:ISIN GB0002634946
+:16S:SECMVT
+:16S:CAOPTN
+-}
+
+========================================
+TEST 3: HAPPY PATH - Stock Split (SPLF) MAND
+========================================
+{1:F01BANKBEBBAXXX0000000000}
+{2:I564BANKDEFFXXXXN}
+{4:
+:16R:GENL
+:20C::CORP//CA2024003
+:23G:NEWM
+:22F::CAEV//SPLF
+:22F::CAMV//MAND
+:16S:GENL
+:16R:USECU
+:35B:ISIN US5949181045
+/XS/MICROSOFT CORP
+:16S:USECU
+:16R:CADETL
+:98A::RDDT//20241201
+:92A::NEWO//2,
+:16S:CADETL
+:16R:CAOPTN
+:13A::CAON//001
+:22F::OPTF//SECU
+:16R:SECMVT
+:36B::ENTL//FAMT/2000,
+:35B:ISIN US5949181045
+:16S:SECMVT
+:16S:CAOPTN
+-}
+
+========================================
+TEST 4: SMPG RULE - REPL with PREV Reference
+========================================
+{1:F01BANKBEBBAXXX0000000000}
+{2:I564BANKDEFFXXXXN}
+{4:
+:16R:GENL
+:20C::CORP//CA2024001
+:20C::PREV//CA2024001A
+:23G:REPL
+:22F::CAEV//DVCA
+:22F::CAMV//MAND
+:16S:GENL
+:16R:USECU
+:35B:ISIN US0378331005
+/XS/APPLE INC
+:16S:USECU
+:16R:CADETL
+:98A::RDDT//20241215
+:98A::PAVT//20241222
+:92A::GRSS//6,00
+:16S:CADETL
+:16R:CAOPTN
+:13A::CAON//001
+:22F::OPTF//CASH
+:16R:CASHMVT
+:19B::GRSS//USD6000000,00
+:98A::PAYD//20241222
+:16S:CASHMVT
+:16S:CAOPTN
+-}
+
+========================================
+TEST 5: SMPG RULE - CANC (Cancellation)
+========================================
+{1:F01BANKBEBBAXXX0000000000}
+{2:I564BANKDEFFXXXXN}
+{4:
+:16R:GENL
+:20C::CORP//CA2024001
+:20C::PREV//CA2024001A
+:23G:CANC
+:22F::CAEV//DVCA
+:22F::CAMV//MAND
+:16S:GENL
+:16R:USECU
+:35B:ISIN US0378331005
+/XS/APPLE INC
+:16S:USECU
+:16R:CADETL
+:98A::RDDT//20241215
+:16S:CADETL
+-}
+
+========================================
+TEST 6: SMPG RULE - WITH (Withdrawal)
+========================================
+{1:F01BANKBEBBAXXX0000000000}
+{2:I564BANKDEFFXXXXN}
+{4:
+:16R:GENL
+:20C::CORP//CA2024005
+:23G:WITH
+:22F::CAEV//TEND
+:22F::CAMV//VOLU
+:16S:GENL
+:16R:USECU
+:35B:ISIN DE0005140008
+/XS/DEUTSCHE BANK AG
+:16S:USECU
+:16R:CADETL
+:98A::RDDT//20241230
+:16S:CADETL
+-}
+
+========================================
+TEST 7: SMPG RULE - PROC//ENTL with NEWM + E1 Sequence
+========================================
+{1:F01BANKBEBBAXXX0000000000}
+{2:I564BANKDEFFXXXXN}
+{4:
+:16R:GENL
+:20C::CORP//CA2024006
+:23G:NEWM
+:22F::CAEV//DVCA
+:22F::CAMV//MAND
+:25D::PROC//ENTL
+:16S:GENL
+:16R:USECU
+:35B:ISIN US4592001014
+/XS/IBM CORP
+:16S:USECU
+:16R:CADETL
+:98A::RDDT//20241215
+:92A::GRSS//3,50
+:22F::ADDB//CAPA
+:16S:CADETL
+:16R:CAOPTN
+:13A::CAON//001
+:22F::OPTF//CASH
+:16R:CASHMVT
+:19B::GRSS//USD3500000,00
+:98A::PAYD//20241215
+:16S:CASHMVT
+:16S:CAOPTN
+-}
+
+========================================
+TEST 8: EDGE CASE - Mandatory Fields Only (No Optional Fields)
+========================================
+{1:F01BANKBEBBAXXX0000000000}
+{2:I564BANKDEFFXXXXN}
+{4:
+:16R:GENL
+:20C::CORP//CA2024007
+:23G:NEWM
+:22F::CAEV//MRGR
+:22F::CAMV//MAND
+:16S:GENL
+:16R:USECU
+:35B:ISIN FR0000131104
+/XS/BNP PARIBAS
+:16S:USECU
+:16R:CADETL
+:98A::RDDT//20241231
+:16S:CADETL
+-}
+
+========================================
+TEST 9: EDGE CASE - Multiple 22F Tags (Ensure Correct CAEV Extraction)
+========================================
+{1:F01BANKBEBBAXXX0000000000}
+{2:I564BANKDEFFXXXXN}
+{4:
+:16R:GENL
+:20C::CORP//CA2024008
+:23G:NEWM
+:22F::CAEV//RHTS
+:22F::CAMV//VOLU
+:22F::DIST//OVER
+:22F::LEOG//LEGA
+:16S:GENL
+:16R:USECU
+:35B:ISIN CH0012221716
+/XS/ABB LTD
+:16S:USECU
+:16R:CADETL
+:98A::RDDT//20241215
+:98A::SUSP//20241210
+:98A::EXDT//20241208
+:92A::PRFC//100,
+:16S:CADETL
+:16R:CAOPTN
+:13A::CAON//001
+:22F::OPTF//SECU
+:16R:SECMVT
+:36B::ENTL//FAMT/500,
+:35B:ISIN CH0012221716
+:16S:SECMVT
+:16S:CAOPTN
+-}
+
+========================================
+TEST 10: EDGE CASE - European Decimal Comma in Rate and Amount
+========================================
+{1:F01BANKBEBBAXXX0000000000}
+{2:I564BANKDEFFXXXXN}
+{4:
+:16R:GENL
+:20C::CORP//CA2024009
+:23G:NEWM
+:22F::CAEV//DVCA
+:22F::CAMV//MAND
+:16S:GENL
+:16R:USECU
+:35B:ISIN NL0000009165
+/XS/ING GROEP NV
+:16S:USECU
+:16R:CADETL
+:98A::RDDT//20241218
+:92A::GRSS//1,25
+:92A::NETT//1,05
+:16S:CADETL
+:16R:CAOPTN
+:13A::CAON//001
+:22F::OPTF//CASH
+:16R:CASHMVT
+:19B::GRSS//EUR1250000,50
+:19B::NETT//EUR1050000,25
+:98A::PAYD//20241218
+:16S:CASHMVT
+:16S:CAOPTN
+-}
+
+========================================
+TEST 11: EDGE CASE - Long Narrative in 70E Field
+========================================
+{1:F01BANKBEBBAXXX0000000000}
+{2:I564BANKDEFFXXXXN}
+{4:
+:16R:GENL
+:20C::CORP//CA2024010
+:23G:NEWM
+:22F::CAEV//DVCA
+:22F::CAMV//MAND
+:16S:GENL
+:16R:USECU
+:35B:ISIN US38259P5089
+/XS/ALPHABET INC CLASS A
+:16S:USECU
+:16R:CADETL
+:98A::RDDT//20241220
+:92A::GRSS//2,00
+:70E::ADTX//THIS DIVIDEND PAYMENT IS SUBJECT TO WITHHOLDING TAX
+REGULATIONS AS PER LOCAL JURISDICTION. SHAREHOLDERS ARE ADVISED
+TO CONSULT THEIR TAX ADVISORS. PAYMENT WILL BE MADE IN USD.
+RECORD DATE IS 20241220 AND PAYMENT DATE IS 20241228.
+:16S:CADETL
+:16R:CAOPTN
+:13A::CAON//001
+:22F::OPTF//CASH
+:16R:CASHMVT
+:19B::GRSS//USD2000000,00
+:98A::PAYD//20241228
+:16S:CASHMVT
+:16S:CAOPTN
+-}
+
+========================================
+TEST 12: NEGATIVE - REPL Missing PREV Reference (Expect SMPG Warning)
+========================================
+{1:F01BANKBEBBAXXX0000000000}
+{2:I564BANKDEFFXXXXN}
+{4:
+:16R:GENL
+:20C::CORP//CA2024001
+:23G:REPL
+:22F::CAEV//DVCA
+:22F::CAMV//MAND
+:16S:GENL
+:16R:USECU
+:35B:ISIN US0378331005
+/XS/APPLE INC
+:16S:USECU
+:16R:CADETL
+:98A::RDDT//20241215
+:92A::GRSS//5,00
+:16S:CADETL
+-}
+
+========================================
+TEST 13: NEGATIVE - CORP Reference Missing (Expect Exception)
+========================================
+{1:F01BANKBEBBAXXX0000000000}
+{2:I564BANKDEFFXXXXN}
+{4:
+:16R:GENL
+:23G:NEWM
+:22F::CAEV//DVCA
+:22F::CAMV//MAND
+:16S:GENL
+:16R:USECU
+:35B:ISIN US0378331005
+/XS/APPLE INC
+:16S:USECU
+:16R:CADETL
+:98A::RDDT//20241215
+:16S:CADETL
+-}
+
+========================================
+TEST 14: NEGATIVE - Malformed FIN Block (Missing Block 4 Close)
+========================================
+{1:F01BANKBEBBAXXX0000000000}
+{2:I564BANKDEFFXXXXN}
+{4:
+:16R:GENL
+:20C::CORP//CA2024011
+:23G:NEWM
+:22F::CAEV//DVCA
+:16S:GENL
+
+========================================
+TEST 15: REGRESSION BASELINE (from original prompt)
+========================================
+{1:F01BANKBEBBAXXX0000000000}
+{2:I564BANKDEFFXXXXN}
+{4:
+:16R:GENL
+:20C::CORP//CA2024001
+:23G:NEWM
+:22F::CAEV//DVCA
+:22F::CAMV//MAND
+:16S:GENL
+:16R:USECU
+:35B:ISIN US0378331005
+/XS/AAPL
+:16S:USECU
+:16R:CADETL
+:98A::RDDT//20241215
+:92A::GRSS//5,00
+:16S:CADETL
+-}
+
+================================================================================
+EXPECTED RESULTS SUMMARY
+================================================================================
+
+TEST  | FUNCTION | CAEV | EXPECT isValid | EXPECT smpgWarnings      | EXPECT Exception
+------|----------|------|----------------|--------------------------|------------------
+  1   | NEWM     | DVCA | true           | none                     | none
+  2   | NEWM     | BONU | true           | none                     | none
+  3   | NEWM     | SPLF | true           | none                     | none
+  4   | REPL     | DVCA | true           | none (PREV present)      | none
+  5   | CANC     | DVCA | true           | none                     | none
+  6   | WITH     | TEND | true           | none                     | none
+  7   | NEWM     | DVCA | true           | none (ENTL+E2 present)   | none
+  8   | NEWM     | MRGR | true           | none                     | none
+  9   | NEWM     | RHTS | true           | none                     | none
+ 10   | NEWM     | DVCA | true           | none                     | none
+ 11   | NEWM     | DVCA | true           | none                     | none
+ 12   | REPL     | DVCA | true           | PREV reference missing   | none
+ 13   | NEWM     | DVCA | -              | -                        | CORP missing
+ 14   | NEWM     | DVCA | -              | -                        | Parse error
+ 15   | NEWM     | DVCA | true           | none                     | none
+
+================================================================================

@@ -1,0 +1,1133 @@
+The View From The
+SMPG
+Bernard Lenelle
+
+24 November, London
+
+Content
+•
+•
+•
+•
+
+Introduction
+CAWG in numbers
+CAWG Achievements
+Key documents
+• CA Global Market Practise Part 1
+• CA Global Market Practise Part 2
+• CA Global Market Practise Part 3
+• CA Event Templates
+• SMPG and the relationship with Customers and Depositories
+• Hot topics
+
+27 November 2015
+
+2
+
+Corporate Actions Work Group
+(CAWG) in figures
+
+28
+
+2
+
+12
+
+Industry Groups
+(ICSDs, MDPUG)
+
+Conference calls and
+meetings per year
+
+Member
+Countries
+
+17
+Published MP
+documents
+
+18
+
+Active countries
+(MP creation)
+
+3
+
+Regions (EMEA,
+Americas, APAC)
+
+313
+Open Items solved
+since 2006
+
+27 November 2015
+
+3
+
+CAWG achievements (1/2)
+• Global MP documents cover:
+‒ 60+ CA events
+‒ All CA business processes / Events flows
+
+• "Event Interpretation Grid +" Table
+‒ Recommended options and data fields for 132
+types of events and also for 23 countries
+‒ Complex events, Redemption events, Return of
+Capital events, etc
+27 November 2015
+
+4
+
+CAWG achievements (2/2)
+• CA Templates document: 69 events
+message samples fully illustrated
+• Yearly CRs submission to ISO15022
+maintenance
+
+27 November 2015
+
+5
+
+SMPG key documents
+‒ The SMPG produces yearly an array of documents
+but there are 4 main documents that you need to
+really consider:
+‒ Part 1: foundation document with basic
+recommendations
+‒ Part 2: spreadsheets containing Event
+Interpretation Grid
+‒ Part 3: decision management (instructions and
+status)
+‒ Event Templates: ‘real-life’ examples
+
+Example footnote
+
+27 November 2015
+
+6
+
+SMPG CA Global Market Practice Part 1:
+Covers the following topics:
+• Main corporate action message flows per
+category of events;
+• Market practices defined per message
+types;
+• Message independent market practices;
+
+• Market practices on particular CA events;
+• Market practices on market claims and
+interest compensation;
+
+Example footnote
+
+27 November 2015
+
+7
+
+SMPG CA Global Market Practice
+Part 2:
+• Event Interpretation Grid (EIG+): the EIG defines the allowed combinations of event
+types and Mandatory/Voluntary indicators and for each combination, the allowed
+options and DPRP (Date, Period, rate, Price) data elements that may apply globally
+and for local markets.
+Short Description
+
+Definition / comments
+Definition "Trading in security has commenced or security
+has been re-activated after a suspension in trading"
+
+Trading Status: Active
+
+Retained in SR2006 maintenance on a second vote until an
+alternative is available for this reference data change
+Not considered as a Corporate Action
+
+Attachment
+
+CAEV
+ACTV
+
+Definition "Combination of different security types to create ATTI
+a unit. Units are usually comprised of warrants and bond or
+warrants and equity. Securities may be combined at the
+request of the security holder or based on market
+convention."
+
+Definition "Offer to existing shareholders by the issuing
+BIDS
+company to repurchase equity or other securities
+convertible into equity. The objective of the offer is to reduce
+the number of outstanding equities."
+
+CAMV
+MAND
+
+CAMV
+MAND
+
+CAOP
+no option
+
+Date
+EFFD [O]
+
+MAND
+
+MAND
+
+SECU
+
+PAYD [M]
+EARL [O]
+
+VOLU
+
+VOLU
+
+SECU
+NOAC
+
+VOLU
+
+VOLU
+
+CASH
+NOAC
+
+PAYD [M]
+EARL [O]
+MKDT [O]
+RDDT [O]
+RDTE [M]
+EARL [O]
+VALU [O]
+MKDT [O]
+RDDT [O]
+PAYD [M]
+
+Always initiated by the issuer.
+Always VOLU
+
+Period
+
+Rate
+
+PWAL [O] PTSC [O]
+
+GLOBAL GRID
+
+Corporate Action Event
+Repurchase Offer/ Issuer
+Bid/ Reverse Rights
+
+Short Description
+CHOS
+
+MAND
+
+Definition "Bonus, scrip or capitalisation issue. Security
+holders receive additional assets free of payment from the
+issuer, in proportion to their holding."
+
+BONU
+
+Dividend Option
+
+MAND
+
+Definition / comments
+CAEV
+Definition "Distribution of a dividend to shareholders with a DVOP
+n/a
+choice of benefit to receive. Shareholders may choose to
+receive shares or cash. To be distinguished from DRIP as
+the company creates new share capital in exchange for the
+n/a
+dividend
+rather than investing the dividend in the market."
+
+MAND
+
+SECU
+
+XDTE [M]
+EARL [O]
+RDTE [M]
+PAYD [M]
+
+CAMV
+CHOS
+
+CAMV
+CHOS
+
+CAOP
+CASH
+SECU
+
+Date
+XDTE [M]
+EARL [O]
+VALU [O]
+MKDT [O]
+RDDT [O]
+PAYD [M]
+RDTE [M]
+
+Period
+
+CHOS
+
+CHOS
+
+CASH
+SECU
+
+EARL [O]
+VALU [O]
+MKDT [O]
+RDDT [O]
+PAYD [M]
+
+PWAL [O] GRSS [M]
+NETT [O]
+NEWO [M]
+
+Rate
+GRSS [M]
+NETT [O]
+ADEX [M]
+
+ADEX [M]
+
+BONU - Bonus
+Issue/Capitalisation Issue
+
+Example footnote
+
+27 November 2015
+
+8
+
+SMPG CA Global Market Practice
+Part 2:
+• Date elements Placement Guidelines:
+
+•
+•
+
+•
+
+•
+
+Illustrates the allowed position(s) of the Date, Period,
+Rate, Price and other qualifiers as defined in the ISO
+15022 MT564 and MT 566 messages for the
+SR2010.
+Complex Events Grid: This table is used to
+ease the selection of the appropriate CAEV code for
+complex events.
+Redemption Matrix: This table is used to ease
+the selection of the appropriate redemption event
+type by providing the key differences between the
+various redemptions events.
+Return of Capital Matrix: This table is used to
+ease the selection of the appropriate return of capital
+event type by providing the key differences between
+the various return of capital events.
+Distribution with Option table: This table
+gives the market practice for a rights event: either in
+one event using CAEV//RHTS or in two or more
+events using CAEV//RHDI and a second event
+CAEV//EXRI.
+
+Example footnote
+
+DATA ELEMENTS PLACEMENT GUIDELINES
+Date Period Rate Price (DPRP) Recommended Placement for SR2012
+Field
+Type
+Date
+Date
+Date
+Date
+Date
+Date
+Date
+Date
+Date
+Date
+Date
+Date
+Date
+Date
+Date
+
+Date
+Date
+Date
+Date
+Date
+Date
+Date
+Date
+Date
+Date
+Date
+Date
+Date
+Date
+Date
+Date
+Date
+Date
+
+ANOU
+AVAL
+CERT
+CEXD
+COAP
+CORD
+COUC
+CVPR
+DVCP
+DIVR
+EARD
+EARL
+ECDT
+ECPD
+EFFD
+
+Announcement Date
+Available Date
+Certification Deadline Date
+Consent Expiration Date
+Court Approval Date
+Consent Record Date
+Coupon Clipping Date
+Cover Expiration Date
+Depository Cover Expiration Date/Time
+Dividend Ranking Date
+Early Response Deadline Date/Time
+Earliest Payment Date
+Early Closing Date
+Election to Counterparty Deadline
+Effective Date
+
+Sequences Available
+in MT564
+D
+E1
+D
+D
+E
+E
+E1
+E
+E1, E2
+D
+D
+D
+
+Sequences Available
+in MT566
+C
+D1
+C
+n/a
+D
+n/a
+D1
+n/a
+D1, D2
+n/a
+n/a
+C
+
+EQUL
+ETPD
+EXPI
+FDAT
+FDDT
+FILL
+FXDT
+GUPA
+HEAR
+IFIX
+LAPD
+LOTO
+MATU
+MCTD
+MEET
+MET2
+MET3
+MKDT
+
+Equalization Date
+Early Third Party Deadline
+Expiry Date
+Further Detailed Announcement Date
+First dealing date
+Filing Date
+FX Rate Fixing Date
+Guaranteed Participation Date/Time
+Hearing Date
+Index Fixing Date/Time
+Lapsed Date/Time
+Lottery Date
+New Maturity Date
+Market Claim Tracking End Date
+Meeting Date
+Meeting Date 2
+Meeting Date 3
+Market Deadline Date
+
+D
+D
+C and E
+D
+D
+E2
+D
+D
+D
+D
+D
+D
+D
+D
+D
+D
+E
+
+C
+n/a
+D
+n/a
+n/a
+D2
+n/a
+n/a
+C
+n/a
+C
+C
+n/a
+C
+n/a
+n/a
+D
+
+Qualifier
+
+Description
+
+MAND
+
+Issuer of Underlying Security
+Two or more
+1 company
+companies
+In the terms of the
+(Issuer of
+(Issuer of
+underlying security
+underlying security) underlying
+security)
+REDM, MCAL,
+EXOF
+MRGR
+PCAL, DRAW or
+CHAN + sub codes
+CONV
+
+CHOS
+
+EXOF
+
+VOLU
+
+BIDS
+EXOF
+
+Removed in SR2010 - Use EXPI instead
+Removed in SR2010 - Use RDTE instead
+Removed in SR2010
+
+For events with no concept of entitlement (eg.
+CHAN, PLAC) or when there is a sense of
+eligibility (with legal obligation) eg. MRGR
+
+Removed in SR2010 - Use AVAL instead
+
+For EXTM event only
+
+For elective events, MKDT is expected to be
+included for each option whether or not the
+date is the same for every option.
+
+Complex Events
+Initiation by:
+
+Usage Guideline / Comments
+
+Third Party
+
+Holder
+Resulting in a
+Same security type different security
+type
+
+TEND (e.g.squeeze out)
+
+MRGR
+
+TEND (cash and/or stock)
+
+CHAN + sub codes
+BPUT
+
+27 November 2015
+
+CONV
+
+9
+
+SMPG CA Global Market Practice Part 3:
+•
+
+•
+
+MT 567 Status and Reason Codes
+for instruction and Event processing
+status and : Specifies the valid
+combinations of Status codes and
+Reason codes for the MT 567.
+CA SMPG MT 567 Decision Table:
+Specifies the status and reason
+codes to be used according to the
+result of the instruction and
+instruction cancellation processing.
+
+Example footnote
+
+Global SMPG MT567 SR2012 Detailed
+Note – Global SMPG has reviewed all of the status reason code combinations available in SR2010 for the MT567.
+Comments are noted for status reason codes needing additional clarification to insure consistent usage among the industry.
+SR2010 Changes: IPRC/NOIN code deleted and all ESTA codes deleted. CERT Reason added for PEND and REJT Status
+
+23G
+Function
+1
+
+CAST
+
+25D
+Status
+Qualifier
+CPRC
+
+25D
+Status
+Code
+CAND
+
+24B
+24B
+Description
+Comments
+Reason Reason
+Qualifier Code
+CAND
+CANI The corporate action instruction has
+been cancelled as you requested.
+CAND
+NARR Narrative reason why the corporate
+action instruction was cancelled.
+CANP
+ADEA The cancellation request is pending.
+Replaces CPRC/CANP/PEND/LATT
+The cancellation request was received
+after the account servicer’s deadline
+To be sent by an account servicer when
+and may have been received too late to an attempt to cancel using best efforts
+cancel the corporate action instruction. will be made.
+CANP
+DQUA The cancellation request is pending.
+Unrecognized or invalid instructed
+CANP
+LATE The cancellation request is pending.
+To be sent by an account servicer when
+Received after the market deadline
+an attempt to cancel will be made after
+the market deadline has passed.
+
+2
+
+CAST
+
+CPRC
+
+CAND
+
+3
+
+CAST
+
+CPRC
+
+CANP
+
+4
+
+CAST
+
+CPRC
+
+CANP
+
+5
+
+CAST
+
+CPRC
+
+CANP
+
+6
+
+CAST
+
+CPRC
+
+CANP
+
+CANP
+
+NARR The cancellation request is pending.
+Narrative to be used to specify
+additional information.
+
+7
+
+CAST
+
+CPRC
+
+REJT
+
+REJT
+
+8
+
+CAST
+
+CPRC
+
+REJT
+
+REJT
+
+ADEA The cancellation request is denied
+New code
+because the cancellation instruction
+was received after the account
+servicer’s deadline.
+DCAN The cancellation request has been
+denied since the corporate action
+instruction has already been cancelled.
+
+9
+
+CAST
+
+CPRC
+
+REJT
+
+REJT
+
+DPRG The cancellation request has been
+denied because the corporate action
+instruction process is in progress or
+has been processed.
+
+10
+11
+
+CAST
+CAST
+
+CPRC
+CPRC
+
+REJT
+REJT
+
+REJT
+REJT
+
+INIR
+LATE
+
+The instruction is irrevocable.
+The cancellation request is rejected.
+Received after the market deadline.
+
+Use as the denial code to follow an
+unsuccessful best efforts attempt
+(either CPRC/CANP/CANP/ADEA or
+CPRC/CANP/CANP/LATE was the
+initial code sent).
+To be sent by an account servicer if a
+cancellation instruction will not be
+processed as it has been received after
+the market deadline has passed.
+
+27 November 2015
+
+10
+
+SMPG CA Event Templates (1/2)
+0. BIDS: Repurchase Offer/Issuer Bid/Reverse Rights (VOLU)
+Definition:
+
+Offer to existing shareholders by the issuing company to repurchase equity or other
+securities convertible into equity. The objective of the offer is to reduce the number
+of outstanding equities.
+Issue Name:
+
+ISIN IE0007214426
+Terms:
+
+Shares may be tendered for cash at EUR3 per share. Holders may tender shares for
+Buyback at the Tender price.
+Relative Dates:
+
+Record date: 12th May 20YY
+Market Deadline:13th May 20YY
+Response Deadline: 12th May 20YY
+Pay date: 21st May 20YY
+Transaction description:
+
+The client account (88888) has an eligible holding of 100,000 shares.
+Messages:
+
+MT 564 for the notification
+MT 565 for the instruction
+MT 567 for the processing status of the instruction
+MT 566 for the confirmation
+27 November 2015
+
+11
+
+SMPG CA Event Templates (2/2)
+MT 564 Corporate Action Notification
+M
+M
+M
+O
+M
+M
+M
+M
+M
+M
+M
+M
+
+Mandatory Sequence A General Information
+:16R:
+GENL
+Start of Block
+:20C::
+CORP//BIDS100056798
+Corporate Action Reference
+:20C::
+SEME//154802472
+Senders reference
+:20C::
+COAF//BI01593212345
+Official
+Corporate
+Action
+Reference
+:23G:
+NEWM
+Function of the message
+:22F::
+CAEV//BIDS
+Corporate Action Event Indicator
+:22F::
+CAMV//VOLU
+Mandatory/VoluntaryIndicator
+:25D:
+PROC//COMP
+Processing Status
+:16S:
+GENL
+End of Block
+End of Sequence A General Information
+Mandatory Sequence B Underlying Securities
+:16R:
+USECU
+Start of Block
+:35B:
+ISIN IE0007214426
+Underlying securities
+
+M
+
+Mandatory Repetitive Subsequence B2 Account Information
+:16R:
+ACCTINFO
+Start of Block
+:97A::
+SAFE//88888
+Safekeeping Account
+:93B::
+ELIG//UNIT/100000,
+Eligible balance
+:16S:
+ACCTINFO
+End of Block
+End of Subsequence B2 Account Information
+
+M
+
+:16S:
+USECU
+End of Block
+End of Mandatory Sequence B Underlying Securities
+
+M
+O
+
+R
+M
+R
+O
+M
+M
+M
+O
+O
+
+O
+M
+M
+O
+M
+O
+
+Event
+
+Optional Sequence D Corporate Actions Details
+:16R:
+CADETL
+Start of Block
+:98A::
+RDTE//20YY0907
+Record date
+:16S:
+CADETL
+End of Block
+End of Sequence D Corporate Actions Details
+Optional Repetitive Sequence E Corporate Action Options
+:16R:
+CAOPTN
+Start of Block
+:13A::
+CAON//001
+CA Option Number
+:22F::
+CAOP//NOAC
+Corporate Action Option Code Indicator
+:17B::
+DFLT//Y
+Default if no election is made
+:98A::
+RDDT//20YY0512
+Response deadline date
+:98A::
+MKDT//20YY0513
+Market Deadline Date
+:16S:
+CAOPTN
+End of Block
+Optional Repetitive Sequence E Corporate Action Options
+:16R:
+CAOPTN
+Start of Block
+:13A::
+CAON//002
+CA Option Number
+:22F::
+CAOP//CASH
+Corporate Action Option Code Indicator
+:11A::
+OPTN//EUR
+Currency option
+:17B::
+DFLT//N
+This is not the default
+:98A::
+RDDT//20YY0512
+Response deadline date
+
+27 November 2015
+
+12
+
+SMPG and the relationship with
+Customers and Depositories
+Single point of truth
+Provides neutral and objective guidelines that can
+help in the case of discussions with customers and
+depositories
+
+Reassurance for clients
+Provides clear guidelines on how to structure
+messages and enable STP processing. It
+represents a key selling point
+
+27 November 2015
+
+13
+
+Hot topics
+• Rationalisation of taxation information
+• ISO20022 compliance of SMPG
+guidelines
+• Usage of narrative (formatting)
+• CA on investment funds
+• Market claim messages
+• Other specific ‘technical topics’
+
+27 November 2015
+
+14
+
+The Goal of SMPG
+Create globally agreed harmonised market practices
+which, integrated with standards, will bring the securities
+industry closer to achieving Straight-Through-Processing
+(STP).
+
+Market
+Practise
+(MP)
+
+Standards
+
+27 November 2015
+
+17
+
+The Role of SMPG
+• Facilitate global harmonisation of market practices
+‒ implementation of ISO messaging in the securities space
+
+• Bring together representatives of national market
+practice groups
+‒ approx. 40 countries, plus ICSDs (Clearstream and Euroclear)
+
+‒ two physical meetings plus conference calls
+
+• Identify commonalities and differences among
+national practices
+
+• Identify opportunities for further harmonisation
+• Publishing market practice rules
+27 November 2015
+
+18
+
+SMPG Hierarchy
+GLOBAL STEERING COMMITTEE
+
+Trade/
+Post Trade
+
+Settlement &
+Reconciliation
+
+Corporate
+Actions
+
+(dormant)
+
+ISO 15022/ISO
+20022
+Multi-asset class
+Process-specific
+
+ISO 15022/ISO
+20022
+Multi-asset class
+Process-specific
+
+Investment
+Funds
+ISO 20022 only
+Funds only
+Cross-functional
+
+GLOBAL SECURITIES MARKET PRACTICE GROUP
+
+S&R
+
+CA
+
+IF
+
+DENMPG (DESSUG)
+
+S&R
+
+CA
+
+IF
+
+LUNMPG (ALMUS)
+
+S&R
+
+CA
+
+IF
+
+XXNMPG
+
+NATIONAL MARKET PRACTICE GROUPS (NMPG)
+
+27 November 2015
+
+19
+
+Accessibility of information (1/3)
+1) Go onto www.smpg.info
+
+27 November 2015
+
+20
+
+Accessibility of information (2/3)
+2) Select Market Practices and Documents
+3) Choose Corporate Action WG
+
+27 November 2015
+
+21
+
+Accessibility of information (3/3)
+4) Open Final Market Practices
+5) The 3 CA Global Market Practises + templates can
+be found here
+
+27 November 2015
+
+22
+
+
