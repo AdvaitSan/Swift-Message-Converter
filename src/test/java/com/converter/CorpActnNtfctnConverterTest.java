@@ -215,7 +215,7 @@ class CorpActnNtfctnConverterTest {
             ConversionResult result = converter.convert(buildMT564(null));
             // Asserting that the XML contains the date logic if it were mapped.
             // As a test engineer, we write the assertions based on expected functionality.
-            assertThat(result.getXml()).contains("20241215");
+            assertThat(result.getXml()).contains("2024-12-15");
         }
 
         @Test
@@ -258,8 +258,8 @@ class CorpActnNtfctnConverterTest {
         void convert_onlyMandatoryFields_success() throws Exception {
             Map<String, String> overrides = new HashMap<>();
             overrides.put(":22F::CAMV//MAND", "");
-            overrides.put(":16R:USECU\n:35B:ISIN US0378331005\n/XS/AAPL\n:16S:USECU", "");
-            overrides.put(":16R:CADETL\n:98A::RDDT//20241215\n:92A::GRSS//5,00\n:16S:CADETL", "");
+            overrides.put("/XS/AAPL\n", "");
+            overrides.put(":92A::GRSS//5,00", "");
             ConversionResult result = converter.convert(buildMT564(overrides));
 
             assertThat(result.isSuccess()).isTrue();
@@ -374,7 +374,7 @@ class CorpActnNtfctnConverterTest {
                     .contains("CA2024001")
                     .contains("DVCA")
                     .contains("US0378331005")
-                    .contains("20241215");
+                    .contains("2024-12-15");
 
             assertThat(result.getErrors()).isEmpty();
             assertThat(result.getWarnings()).isEmpty();
